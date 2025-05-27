@@ -10,7 +10,7 @@ For each original FJSSP instance they are 5 FJSSP-nfa instances (nammed _0 to _4
 
 
 They format of instances is as follows:
-- First line: n m a
+- First line, 3 values : n m a
     - n number of jobs
     - m number of machines
     - a average number of machines per operation
