@@ -6,15 +6,15 @@ The set of original FJSSPinstances is located at /FJSSPinstances/
 They are 2010 FJSSP-nfa instances in total. 
 For each original FJSSP instance they are 5 FJSSP-nfa instances (nammed _0 to _4)
 - Instance _0: multiple maintenance per machine
-- Instance _1 to _4: exactly one maintenance per machine
+- Instance _1 to _4 : exactly one maintenance per machine
 
 
-They format of instances is as follows:
+They format of instances is as follows :
 - First line, 3 values : n m a
     - n number of jobs
     - m number of machines
     - a average number of machines per operation
-- Line 1 to n: one line per job:
+- Line 1 to n : one line per job :
     - first number is the number of operations for the job (j)
     - for each operation 0..j : the next number is the number of machines that can process the first operation (k)
       - for k pairs of numbers 0..k : 2 values
